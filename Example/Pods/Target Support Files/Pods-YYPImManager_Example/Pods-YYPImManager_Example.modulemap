@@ -1,0 +1,6 @@
+framework module Pods_YYPImManager_Example {
+  umbrella header "Pods-YYPImManager_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

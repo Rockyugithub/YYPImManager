@@ -1,0 +1,22 @@
+{
+  "name": "YYPImManager",
+  "version": "0.1.0",
+  "summary": "A short description of YYPImManager.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/461898929@qq.com/YYPImManager",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "461898929@qq.com": "461898929@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/461898929@qq.com/YYPImManager.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "YYPImManager/Classes/**/*"
+}

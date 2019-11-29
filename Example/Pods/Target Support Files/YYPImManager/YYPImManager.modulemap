@@ -1,0 +1,6 @@
+framework module YYPImManager {
+  umbrella header "YYPImManager-umbrella.h"
+
+  export *
+  module * { export * }
+}

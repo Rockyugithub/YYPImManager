@@ -12,6 +12,8 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let im = ImManager()
+        im.testFunc()
         // Do any additional setup after loading the view, typically from a nib.
     }
 

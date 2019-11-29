@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		18667BFC2390B8D2005FB0BF /* ImManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 18667BFB2390B8D2005FB0BF /* ImManager.swift */; };
 		414D1040BD20213E6083453C /* Pods_YYPImManager_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E11FAF8BAD9118E35F1BBA6 /* Pods_YYPImManager_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
@@ -29,8 +30,9 @@
 
 /* Begin PBXFileReference section */
 		0C4C8AEEA42E99400CFCB068 /* Pods-YYPImManager_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYPImManager_Example.debug.xcconfig"; path = "Target Support Files/Pods-YYPImManager_Example/Pods-YYPImManager_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		18667BFB2390B8D2005FB0BF /* ImManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImManager.swift; sourceTree = "<group>"; };
 		1A1C2BD4E01B6DCCBA6CDCC1 /* Pods_YYPImManager_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYPImManager_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5DEDEC1110DA3AE8951C2E5E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		5DEDEC1110DA3AE8951C2E5E /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		5E11FAF8BAD9118E35F1BBA6 /* Pods_YYPImManager_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_YYPImManager_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* YYPImManager_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YYPImManager_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,9 +46,9 @@
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
 		6C67015A9F869842BABDA371 /* Pods-YYPImManager_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYPImManager_Tests.debug.xcconfig"; path = "Target Support Files/Pods-YYPImManager_Tests/Pods-YYPImManager_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		83BD38E10A98A9ADD520FC10 /* Pods-YYPImManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYPImManager_Example.release.xcconfig"; path = "Target Support Files/Pods-YYPImManager_Example/Pods-YYPImManager_Example.release.xcconfig"; sourceTree = "<group>"; };
-		8709891018684CCD75FA8B80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8709891018684CCD75FA8B80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8DFDF48CEBD9B2638E24E5F3 /* Pods-YYPImManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYPImManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-YYPImManager_Tests/Pods-YYPImManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D16BCB603DE3CC822D78949 /* YYPImManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = YYPImManager.podspec; path = ../YYPImManager.podspec; sourceTree = "<group>"; };
+		9D16BCB603DE3CC822D78949 /* YYPImManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YYPImManager.podspec; path = ../YYPImManager.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +79,6 @@
 				6C67015A9F869842BABDA371 /* Pods-YYPImManager_Tests.debug.xcconfig */,
 				8DFDF48CEBD9B2638E24E5F3 /* Pods-YYPImManager_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -111,6 +112,7 @@
 				607FACDC1AFB9204008FA782 /* Images.xcassets */,
 				607FACDE1AFB9204008FA782 /* LaunchScreen.xib */,
 				607FACD31AFB9204008FA782 /* Supporting Files */,
+				18667BFB2390B8D2005FB0BF /* ImManager.swift */,
 			);
 			name = "Example for YYPImManager";
 			path = YYPImManager;
@@ -228,6 +230,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -352,6 +355,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				18667BFC2390B8D2005FB0BF /* ImManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
