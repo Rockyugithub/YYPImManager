@@ -8,8 +8,8 @@
 
 import UIKit
 
-class ImManager: NSObject {
-    func testFunc() {
-        print("this is a test")
+public class ImManager: NSObject {
+    public func testFunc() {
+        print("this is a test local")
     }
 }

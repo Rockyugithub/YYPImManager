@@ -4,21 +4,24 @@ PODS:
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - YYPImManager (1.0.2)
+  - YYPImManager (1.0.3)
 
 DEPENDENCIES:
   - FBSnapshotTestCase (~> 2.1.4)
-  - YYPImManager
+  - YYPImManager (from `~/Desktop/YYPImManager`)
 
 SPEC REPOS:
   trunk:
     - FBSnapshotTestCase
-    - YYPImManager
+
+EXTERNAL SOURCES:
+  YYPImManager:
+    :path: "~/Desktop/YYPImManager"
 
 SPEC CHECKSUMS:
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  YYPImManager: 3861f89b935a371e83922abe163429209dd4ae9d
+  YYPImManager: 5a632fef7bfe9922623b05f5d2b1812ed1d14dce
 
-PODFILE CHECKSUM: 30fd120aec4ffaed2f7d64a879dc9c709e561474
+PODFILE CHECKSUM: 088228547d22feb981b6276b2af62de2d766a688
 
 COCOAPODS: 1.8.4
