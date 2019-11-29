@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YYPImManager'
   s.version          = '1.0.2'
-  s.summary          = 'A short description of YYPImManager.'
+  s.summary          = 'this is my first Pod Object ,name is YYPImManager.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
