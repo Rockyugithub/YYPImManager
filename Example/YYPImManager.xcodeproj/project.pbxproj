@@ -46,7 +46,7 @@
 		83BD38E10A98A9ADD520FC10 /* Pods-YYPImManager_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYPImManager_Example.release.xcconfig"; path = "Target Support Files/Pods-YYPImManager_Example/Pods-YYPImManager_Example.release.xcconfig"; sourceTree = "<group>"; };
 		8709891018684CCD75FA8B80 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		8DFDF48CEBD9B2638E24E5F3 /* Pods-YYPImManager_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YYPImManager_Tests.release.xcconfig"; path = "Target Support Files/Pods-YYPImManager_Tests/Pods-YYPImManager_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		9D16BCB603DE3CC822D78949 /* YYPImManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YYPImManager.podspec; path = ../YYPImManager.podspec; sourceTree = "<group>"; };
+		9D16BCB603DE3CC822D78949 /* YYPImManager.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = YYPImManager.podspec; path = ../YYPImManager.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
