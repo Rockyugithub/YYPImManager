@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'YYPImManager'
   s.version          = '1.0.2'
-  s.summary          = 'this is my first Pod Object ,name is YYPImManager.'
+  s.summary          = 'this is YYPImManager.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -31,7 +31,6 @@ TODO: Add long description of the pod here.
   s.ios.deployment_target = '8.0'
 
   s.source_files = 'YYPImManager/Classes/**/*'
-  
   # s.resource_bundles = {
   #   'YYPImManager' => ['YYPImManager/Assets/*.png']
   # }
